@@ -14,7 +14,16 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "nodeom": "0.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noorbutt/Chat-app-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noorbutt/Chat-app-1/issues"
+  },
+  "homepage": "https://github.com/noorbutt/Chat-app-1#readme",
   "description": ""
 }

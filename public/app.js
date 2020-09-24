@@ -89,7 +89,7 @@ function scrollbottom(){
    firebase.auth().signInWithPopup(provider)
   .then(function(result) {
     var user = result.user;
-  //  console.log("user===>",user)
+    console.log("user===>",user)
      window.alert('Welcome Noor butt is here')
     
     })
@@ -98,27 +98,11 @@ function scrollbottom(){
       console.log(error.message)
     });
  
- 
-
 
 }
 
 
 
-
-
-
-//         var user = result.user;
-        
-//         console.log("user====>", user.displayName)
-//          window.alert('Welcome Noor butt is here')
-
-
-//       }).catch(function(error) {
-//         console.log(error.message)
-//       });
-
-// }
 
 
 
@@ -144,13 +128,7 @@ function signout(){
 
 // //firbase connect with app 
 
-//  console.log(firebase)
-
-//   firebase.database().ref("user").push().set({
-
-
-
-//  })
+ console.log(firebase)
 
 
 
